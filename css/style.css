@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding: 0; 
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family: "Manrope", sans-serif;
+}
+
+.navbar {
+    background-color:#F0F0F0 !important;
+}
+
+.navbar-brand img {
+    height: 40px;   
+    width: auto;    
+}
+
+.card {
+    background-color: #F0F0F0;
+}
+
