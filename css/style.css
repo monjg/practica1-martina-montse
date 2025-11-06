@@ -15,7 +15,16 @@
     width: auto;    
 }
 
+
+.parallax-section {
+    background-image: url(../img/interior1.jpg);
+    min-height: 500px;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    color: #f0f0f0; 
+}
+
 .card {
     background-color: #F0F0F0;
 }
-
