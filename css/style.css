@@ -13,7 +13,7 @@
 }
 
 h1 {
-    font-weight:100;
+    font-weight:900;
     font-size:6em ;
     color: #f7e3e6;
 }
@@ -22,6 +22,13 @@ h2 {
     font-family: "Playfair Display", serif;
     font-weight: lighter;
     color: #823038;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    color: #823038;
+    font-size:1.5em ;
 }
 
 p {
@@ -41,7 +48,7 @@ p {
 }
 
 .navbar {
-    background-color:#f7e3e6 !important;
+    background-color:transparent !important;
 }
 
 .navbar-brand img {
@@ -53,11 +60,26 @@ p {
     color: #823038;
 }
 
+.navbar-toggler {
+    border-color: transparent;
+}
 
+.container-hero {
+    max-width: 30vw;
+}
 
-.parallax-section {
-    background-image:url(../img/interior1.jpg);
-    min-height: 500px;
+.parallax-section1 {
+    background-image:url(../img/hero1.png);
+    min-height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    color: #f8f9f3; 
+}
+
+.parallax-section2 {
+    background-image:url(../img/hero2.png);
+    min-height: 100vh; 
     background-attachment: fixed; 
     background-position: center;
     background-size: cover;
