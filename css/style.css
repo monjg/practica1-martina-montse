@@ -7,15 +7,15 @@
 }
 
 :root {
-    --color-primario:#823038 ; 
-    --color-secundario: #f7e3e6; 
-    --color-terciario:#F4ACB7;
+    --color-primario:#F04F4F ; 
+    --color-secundario: #FFFDDB; 
+    --color-terciario:#4A4144;
 }
 
 h1 {
     font-weight:800;
     font-size:8em ;
-    color: var(--color-primario)
+    color: var(--color-secundario)
 }
 
 h2 {
@@ -27,25 +27,31 @@ h2 {
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: bolder;
-    color: var(--color-primario);
+    color: var(--color-terciario);
     font-size:1.5em ;
 }
 
 p {
-    color: var(--color-primario) 
+    color: var(--color-terciario) 
 }
 
 .btn {
     background-color: var(--color-secundario);
-    border-color: var(--color-primario);
-    color: var(--color-primario);
+    color: var(--color-terciario);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.685);
 }
 
+
 .btn:hover {
-    background-color: var(--color-primario);
-    border-color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border-color: var(--color-terciario);
     color: var(--color-terciario);
 }
+
+
+
+/* MENÚ */
+
 
 .navbar {
     background-color:transparent !important;
