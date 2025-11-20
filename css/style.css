@@ -53,26 +53,14 @@ p {
 /* MENÚ */
 
 
-.navbar {
-    background-color:transparent !important;
-}
-
 .navbar-brand img {
     height: 40px;   
     width: auto;    
 }
 
-.nav-link {
-    color: var(--color-primario);
-}
 
-.nav-link:hover {
-    color: var(--color-terciario);
-}
 
-.navbar-toggler {
-    border-color: transparent;
-}
+/* HERO */
 
 
 .parallax-section1 {
@@ -89,7 +77,6 @@ p {
     background-attachment: fixed; 
     background-position: center;
     background-size: cover;
-    /* color: #f8f9f3;  */
 }
 
 .parallax-section3 {
@@ -98,12 +85,9 @@ p {
     background-attachment: fixed; 
     background-position: center;
     background-size: cover;
-    /* color: #f8f9f3;  */
 }
 
-#hero {
-    border-bottom: solid 1px #823038;
-}
+
 
 .container-hero {
     max-width: 30vw;
@@ -112,4 +96,34 @@ p {
 .card {
     background-color: var(--color-secundario);
     border-color: transparent;
+}
+
+
+
+
+/* CARTA */
+
+
+
+
+.dish img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform .6s ease;
+}
+.dish img:hover {
+    transform: rotate(360deg);
+}
+.dish {
+    text-align: center;
+}
+.dish-name {
+    font-weight: 600;
+    margin-top: 8px;
+}
+.price {
+    color: var(--color-terciario);
+    font-size: 0.9rem;
 }
