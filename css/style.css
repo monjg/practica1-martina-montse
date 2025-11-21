@@ -40,7 +40,7 @@ h3 {
 }
 
 p {
-    color: var(--color-terciario) 
+    color: var(--color-terciario);
 }
 
 .btn {
@@ -129,9 +129,6 @@ p {
 
 /* CARTA */
 
-
-
-
 .dish img {
     width: 200px;
     height: 200px;
@@ -153,6 +150,152 @@ p {
     color: var(--color-terciario);
     font-size: 0.9rem;
 }
+
+
+
+/* CARRUSEL */
+
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* transform: rotateX(-20deg) translateY(-70px); */
+  transform-style: preserve-3d;
+  perspective: 800px;
+  user-select: none;
+  cursor: grab;
+  background-color: #FFFDDB;
+  
+}
+
+.carousel-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  width: 200px;
+  height: 300px;
+  transform: translate3d(0, 0, -10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transform-origin: 50% 50%;
+  border-radius: 4rem;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+
+/* NOSOTROS */
+
+.about-section h2 {
+    letter-spacing: 1px;
+}
+
+.value-box {
+    background: var(--color-secundario);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.value-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+}
+
+.about-section p {
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer-custom {
+    background-color: var(--color-primario); 
+}
+
+.footer-title {
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+.footer-link {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-social {
+    font-size: 1.4rem;
+    color: var(--color-secundario);
+}
+
+.footer-social:hover {
+    color: white;
+}
+
+.foot1 {
+    color: var(--color-secundario);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .carousel {
+    transform: rotateX(-10deg) scale(.6) translateY(-60px);
+  }
+}
+
+
+
+
+
+
 
 
 
