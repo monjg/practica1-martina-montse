@@ -1,4 +1,13 @@
+// Seleccionamos el formulario
+    const form = document.querySelector('form');
 
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita el envío real del formulario
+        alert('¡Reserva confirmada!'); // Pop-up de confirmación
+        form.reset(); // Opcional: limpia el formulario después de confirmar
+    });
+
+    
 
 // CARRUSEL
 
