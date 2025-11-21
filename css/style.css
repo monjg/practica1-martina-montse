@@ -113,6 +113,14 @@ p {
     background-size: cover;
 }
 
+.parallax-section4 {
+    background-image:url(../img/hero4.jpg);
+    min-height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 .container-hero {
@@ -226,6 +234,7 @@ p {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
 /* FOOTER */
