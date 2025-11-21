@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     font-weight:900;
-    font-size:6em ;
+    font-size:5em ;
     color: var(--color-primario)
 }
 
@@ -120,10 +120,9 @@ p {
 }
 
 .card {
-    background-color: var(--color-secundario);
     border-color: transparent;
+    background-color: var(--color-secundario);
 }
-
 
 
 
@@ -160,13 +159,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
   /* transform: rotateX(-20deg) translateY(-70px); */
   transform-style: preserve-3d;
   perspective: 800px;
   user-select: none;
   cursor: grab;
-  background-color: #FFFDDB;
+  background-color: var(--color-secundario);
   
 }
 
@@ -184,6 +183,7 @@ p {
   color: #fff;
   transform-origin: 50% 50%;
   border-radius: 4rem;
+  
 }
 
 .carousel-image img {
@@ -228,17 +228,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 .footer-custom {
     background-color: var(--color-primario); 
@@ -271,13 +260,6 @@ p {
 .foot1 {
     color: var(--color-secundario);
 }
-
-
-
-
-
-
-
 
 
 
