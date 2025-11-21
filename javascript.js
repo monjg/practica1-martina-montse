@@ -68,8 +68,6 @@ $(document).ready(function() {
 
 
 
-// HOME
-
 
 
 
